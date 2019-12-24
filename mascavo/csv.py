@@ -2,7 +2,8 @@
     This file deal with csv operations
 """
 
-def read(filename):
+
+def read(filename: str):
     """
     Read CSV and make a dictionary list
     :param filename: csv
@@ -12,7 +13,7 @@ def read(filename):
     return list(csv.DictReader(open(filename)))
 
 
-def write(dics, filename, keys=None):
+def write(dics: list, filename: str, keys=None):
     """
     Create a CSV from a dictionary list
     :param dics: dictionary list
