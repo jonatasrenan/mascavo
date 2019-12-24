@@ -1,3 +1,7 @@
+"""
+    This file deal with csv operations
+"""
+
 def read(filename):
     """
     Read CSV and make a dictionary list
