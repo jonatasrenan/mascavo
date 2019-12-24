@@ -5,7 +5,7 @@ with open('requirements.txt') as f:
 
 setup(
     name="mascavo",
-    version="0.0.0",
+    version="0.0.1",
     description="mascavo",
     long_description=open('README.md').read(),
     long_description_content_type='text/markdown',
